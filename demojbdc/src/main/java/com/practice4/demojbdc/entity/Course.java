@@ -6,6 +6,7 @@ import org.springframework.data.annotation.Id;
 public class Course {
 	private int courseid;
 	private String courseName;
+	private String error;
 	public Course(int courseid, String courseName) {
 		super();
 		this.courseid = courseid;
